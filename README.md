@@ -17,7 +17,7 @@ A simple shell script tool for managing CTF challenges. This script allows you t
     chmod +x ctftool.sh
     ```
 
-3. Add it to bashrc. `ctftool.sh` should be in the same directory as your CTF challenge directories.
+3. Add it to bashrc. ctftool.sh should be in the same directory as your CTF challenge directories.
 
     ```bash
     echo -e "alias ctf=\"source <DIRECTORY>/ctftool.sh\"\nctf rc" >> ~/.bashrc
