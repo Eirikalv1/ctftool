@@ -29,11 +29,11 @@ A simple shell script for managing CTF challenges. This script allows you to cre
   ctf new <ctfname>                 - Create a new CTF with the specified name.
   ctf delete <ctfname>              - Delete an existing CTF.
   ctf set <ctfname>                 - Set the current CTF directory.
-  ctf unset <ctfname>               - Unset the current CTF and challenge.
+  ctf unset                         - Unset the current CTF and challenge.
   ctf list                          - List all CTFs available.
   ctf chal new <challenge name>     - Create a new challenge in the current CTF.
   ctf chal delete <challenge name>  - Delete a challenge in the current CTF.
   ctf chal set <challenge name>     - Set the current challenge in the CTF.
-  ctf chal unset <challenge name>   - Unset the current challenge in the current CTF.
+  ctf chal unset                    - Unset the current challenge in the current CTF.
   ctf chal list                     - List all challenges in the current CTF.
 ```
